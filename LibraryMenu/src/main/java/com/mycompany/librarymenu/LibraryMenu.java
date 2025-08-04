@@ -13,10 +13,10 @@ public class LibraryMenu {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int keyIn = 0;
+        int keyIn = -1;
         
         System.out.println("Welcome to the library system!");
-        do {
+        while (keyIn != 0) do {
             System.out.println("Library System Menu:");
             System.out.println("1. Borrow a book");
             System.out.println("2. Return a book");
