@@ -16,7 +16,7 @@ public class LibraryMenu {
         int keyIn = -1;
         
         System.out.println("Welcome to the library system!");
-        while (keyIn != 0) do {
+        while (keyIn != 0) {
             System.out.println("Library System Menu:");
             System.out.println("1. Borrow a book");
             System.out.println("2. Return a book");
@@ -49,6 +49,6 @@ public class LibraryMenu {
                     System.out.println("That is not a valid option.");
                 }
             }
-        } while (keyIn != 0);
+        }
     }
 }
