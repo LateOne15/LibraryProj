@@ -46,7 +46,7 @@ public class LibraryMenu {
                     System.out.println("We encourage you to not let your books become overdue next time.");
                 }
                 default -> {
-                    System.out.println("This wasn't meant to happen - consider it an error.");
+                    System.out.println("That is not a valid option.");
                 }
             }
         } while (keyIn != 0);
