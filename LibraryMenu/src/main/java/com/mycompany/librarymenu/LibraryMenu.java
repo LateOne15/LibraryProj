@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class LibraryMenu {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int keyIn = -1;
+        Scanner sc = new Scanner(System.in);
         
         System.out.println("Welcome to the library system!");
         while (keyIn != 0) {
